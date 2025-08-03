@@ -216,7 +216,8 @@ main>section{
     .navbar ,
      .nav-link ,
      .features,
-      .teams{
+      .teams,
+      .footer-container{
         flex-direction: column;}
       
 
@@ -246,7 +247,7 @@ main>section{
     margin-left: 20px;
 
 }
- 
+
 /* medium size devices */
 @media screen and (min-width: 576px) and (max-width:992px){
     .teams,
@@ -271,4 +272,20 @@ main>section{
 
 }
 }
+/* footer styles  */
+.footer-container{
+    text-align: center;
+    padding: 36px;
+    background-color:  #FFF4E7;
+     
+    margin: 240px 240px 240px 240px;
+ 
+}
 
+/* media query for footer section */
+
+@media screen and (max-width:576px) {
+    .footer-container{
+        margin: 240px 20px 240px 20px;
+    }
+}
